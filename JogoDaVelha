@@ -1,0 +1,29 @@
+package JogoDaVelha;
+
+import java.util.Scanner;
+public class Jogo {
+    Scanner teclado = new Scanner (System.in);
+    public String joga;
+
+    public String getJoga() {
+        return this.joga;   
+    }
+    public void setJoga(String joga) {
+        this.joga=joga;
+    }
+    public void jogodavelha() {
+        String [][] jogodavelha ={{"X","O","X"},{"O","X","O"},{"X","O","O"}};
+        for(int i=0;i<3;i++) {
+            for(int j=0;j<3;j++) {
+            }
+        }
+        for(int i=0;i<3;i++) {
+            for(int j=0;j<3;j++) {
+                System.out.print(jogodavelha[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    
+}
